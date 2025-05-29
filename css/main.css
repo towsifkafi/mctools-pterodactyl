@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Monocraft";   /*Can be any text*/
+    src: local("Monocraft"), url("https://online-fonts.com/sites/default/files/2024-08/Monocraft.otf") format("opentype");
+}
+
+.font-minecraft {
+    font-family: "Monocraft";
+}

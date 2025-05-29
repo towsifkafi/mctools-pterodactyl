@@ -1,0 +1,37 @@
+info:
+  name: "McTools"
+  identifier: "mctools"
+  description: "Some helpful tools for Minecraft servers."
+  flags: ""
+  version: "1.0"
+  target: "beta-2024-12"
+  author: "towsifkafi"
+  icon: ""
+  website: "https://github.com/towsifkafi/mctools-petrodactyl"
+
+admin:
+  view: "views/admin/view.blade.php"
+  controller: ""
+  css: ""
+  wrapper: ""
+
+dashboard:
+  css: "css/main.css"
+  wrapper: ""
+  components: "components"
+
+data:
+  directory: ""
+  public: "public"
+  console: ""
+
+requests:
+  views: ""
+  app: ""
+  routers:
+    application: ""
+    client: ""
+    web: ""
+
+database:
+  migrations: ""

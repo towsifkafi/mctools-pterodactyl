@@ -1,0 +1,24 @@
+# Template configuration files generally contain the minimum amount of
+# options required for functionality. Learn more about options that are
+# not listed here on the documentation page linked below.
+#
+# https://blueprint.zip/docs/?page=documentation/componentsyml
+
+Navigation:
+  #NavigationBar: 
+  #  AdditionalItems: "elements/PlaceholderComponent"
+  Routes:
+    #- { Name: "Utils", Path: "/utils", Type: "server", Component: "sections/MCUtils", AdminOnly: "false" }
+
+Server:
+  Files:
+    Edit:
+      BeforeEdit: "elements/EditorAddons"
+
+#Dashboard:
+#  ServerRow:
+#    ResourceLimits: "elements/TestElement"
+
+#Authentication:
+#  Container:
+#    AfterContent: "elements/TestElement"
