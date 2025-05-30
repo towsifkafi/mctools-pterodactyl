@@ -14,5 +14,10 @@
 blueprint -install mctools.blueprint
 ```
 
-## Inspiration
+## Inspiration & Sources
 This project is heavily inspired by [`mcutils.com`](https://mcutils.com), which provides a wide range of useful Minecraft tools and utilities. This addon aims to bring similar functionality directly into the Pterodactyl.
+Resource from these sites/projects are used:
+1. https://minecraft.wiki/
+2. https://mcutils.com
+3. https://github.com/PrismarineJS/minecraft-data
+4. https://github.com/misode/mcmeta
