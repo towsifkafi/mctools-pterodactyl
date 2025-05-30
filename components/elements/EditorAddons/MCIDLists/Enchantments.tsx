@@ -23,7 +23,7 @@ const Enchantments = () => {
     // @ts-ignore
     const fetchEnchantments = async () => {
       try {
-        const response = await fetch("https://raw.githubusercontent.com/PrismarineJS/minecraft-data/refs/heads/master/data/pc/1.21.4/enchantments.json");
+        const response = await fetch("https://raw.githubusercontent.com/towsifkafi/mctools-pterodactyl/refs/heads/main/data/enchantments.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

@@ -23,7 +23,7 @@ const Effects = () => {
     // @ts-ignore
     const fetchEffects = async () => {
       try {
-        const response = await fetch("https://gist.githubusercontent.com/towsifkafi/3e8e9265d9a26e0964673691ffc176d1/raw/be5a189dffeab7b3f959eee583c20ee869dc3432/effects.json");
+        const response = await fetch("https://raw.githubusercontent.com/towsifkafi/mctools-pterodactyl/refs/heads/main/data/effects.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

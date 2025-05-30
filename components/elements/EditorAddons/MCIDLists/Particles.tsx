@@ -21,7 +21,7 @@ const Particles = () => {
     // @ts-ignore
     const fetchParticles = async () => {
       try {
-        const response = await fetch("https://gist.githubusercontent.com/towsifkafi/5412736a1e375d386be0f65d73587537/raw/907680f12255255d613f79a844c6f4834dc97383/particles.json");
+        const response = await fetch("https://raw.githubusercontent.com/towsifkafi/mctools-pterodactyl/refs/heads/main/data/particles.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

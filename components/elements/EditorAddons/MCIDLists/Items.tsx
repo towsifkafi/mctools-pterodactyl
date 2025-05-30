@@ -25,7 +25,7 @@ const Items = () => {
     const fetchItems = async () => {
       try {
         
-        const response = await fetch("https://raw.githubusercontent.com/flytegg/mc-utils/refs/heads/master/src/lib/items.json");
+        const response = await fetch("https://raw.githubusercontent.com/towsifkafi/mctools-pterodactyl/refs/heads/main/data/items.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

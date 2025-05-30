@@ -22,7 +22,7 @@ const Sounds = () => {
     // @ts-ignore
     const fetchSounds = async () => {
       try {
-        const response = await fetch("https://gist.githubusercontent.com/towsifkafi/ee8cdf00f75e60627f41fbf6f3031055/raw/8b1a13baff3fb6ae76dd65ab097e3f797ac12516/sounds.json");
+        const response = await fetch("https://raw.githubusercontent.com/towsifkafi/mctools-pterodactyl/refs/heads/main/data/sounds.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

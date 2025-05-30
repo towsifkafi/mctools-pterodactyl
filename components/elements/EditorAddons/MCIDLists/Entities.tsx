@@ -24,7 +24,7 @@ const Entities = () => {
     // @ts-ignore
     const fetchEntities = async () => {
       try {
-        const response = await fetch("https://gist.githubusercontent.com/towsifkafi/9456de03870226c780febc692d90c00d/raw/42fc6a2105d1ed4adafdbb042c6f34aeeafd03dd/entities.json");
+        const response = await fetch("https://raw.githubusercontent.com/towsifkafi/mctools-pterodactyl/refs/heads/main/data/entities.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
