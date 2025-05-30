@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Speed",
+        "id": "speed",
+        "image": "https://minecraft.wiki/images/EffectSprite_speed.png?0a273"
+    },
+    {
+        "name": "Slowness",
+        "id": "slowness",
+        "image": "https://minecraft.wiki/images/EffectSprite_slowness.png?bc1c1"
+    },
+    {
+        "name": "Haste",
+        "id": "haste",
+        "image": "https://minecraft.wiki/images/EffectSprite_haste.png?0b7a0"
+    },
+    {
+        "name": "Mining Fatigue",
+        "id": "mining_fatigue",
+        "image": "https://minecraft.wiki/images/EffectSprite_mining-fatigue.png?16839"
+    },
+    {
+        "name": "Strength",
+        "id": "strength",
+        "image": "https://minecraft.wiki/images/EffectSprite_strength.png?05e79"
+    },
+    {
+        "name": "Instant Health",
+        "id": "instant_health",
+        "image": "https://minecraft.wiki/images/EffectSprite_instant-health.png?09787"
+    },
+    {
+        "name": "Instant Damage",
+        "id": "instant_damage",
+        "image": "https://minecraft.wiki/images/EffectSprite_instant-damage.png?477e8"
+    },
+    {
+        "name": "Jump Boost",
+        "id": "jump_boost",
+        "image": "https://minecraft.wiki/images/EffectSprite_jump-boost.png?f1e41"
+    },
+    {
+        "name": "Nausea",
+        "id": "nausea",
+        "image": "https://minecraft.wiki/images/EffectSprite_nausea.png?aa4c1"
+    },
+    {
+        "name": "Regeneration",
+        "id": "regeneration",
+        "image": "https://minecraft.wiki/images/EffectSprite_regeneration.png?c2b22"
+    },
+    {
+        "name": "Resistance",
+        "id": "resistance",
+        "image": "https://minecraft.wiki/images/EffectSprite_resistance.png?43f5f"
+    },
+    {
+        "name": "Fire Resistance",
+        "id": "fire_resistance",
+        "image": "https://minecraft.wiki/images/EffectSprite_fire-resistance.png?dc214"
+    },
+    {
+        "name": "Water Breathing",
+        "id": "water_breathing",
+        "image": "https://minecraft.wiki/images/EffectSprite_water-breathing.png?2542c"
+    },
+    {
+        "name": "Invisibility",
+        "id": "invisibility",
+        "image": "https://minecraft.wiki/images/EffectSprite_invisibility.png?46692"
+    },
+    {
+        "name": "Blindness",
+        "id": "blindness",
+        "image": "https://minecraft.wiki/images/EffectSprite_blindness.png?7985e"
+    },
+    {
+        "name": "Night Vision",
+        "id": "night_vision",
+        "image": "https://minecraft.wiki/images/EffectSprite_night-vision.png?52b4e"
+    },
+    {
+        "name": "Hunger",
+        "id": "hunger",
+        "image": "https://minecraft.wiki/images/EffectSprite_hunger.png?fb9b2"
+    },
+    {
+        "name": "Weakness",
+        "id": "weakness",
+        "image": "https://minecraft.wiki/images/EffectSprite_weakness.png?49b93"
+    },
+    {
+        "name": "Poison",
+        "id": "poison",
+        "image": "https://minecraft.wiki/images/EffectSprite_fatal-poison.png?7a152"
+    },
+    {
+        "name": "Wither",
+        "id": "wither",
+        "image": "https://minecraft.wiki/images/EffectSprite_wither.png?21d6d"
+    },
+    {
+        "name": "Health Boost",
+        "id": "health_boost",
+        "image": "https://minecraft.wiki/images/EffectSprite_health-boost.png?aa2b3"
+    },
+    {
+        "name": "Absorption",
+        "id": "absorption",
+        "image": "https://minecraft.wiki/images/EffectSprite_absorption.png?640f5"
+    },
+    {
+        "name": "Saturation",
+        "id": "saturation",
+        "image": "https://minecraft.wiki/images/EffectSprite_saturation.png?62840"
+    },
+    {
+        "name": "Glowing​‌[JE only]",
+        "id": "glowing",
+        "image": "https://minecraft.wiki/images/EffectSprite_glowing.png?9939a"
+    },
+    {
+        "name": "Levitation",
+        "id": "levitation",
+        "image": "https://minecraft.wiki/images/EffectSprite_levitation.png?b4009"
+    },
+    {
+        "name": "Luck​‌[JE only]",
+        "id": "luck",
+        "image": "https://minecraft.wiki/images/EffectSprite_luck.png?00b07"
+    },
+    {
+        "name": "Bad Luck​‌[JE only]",
+        "id": "unluck",
+        "image": "https://minecraft.wiki/images/EffectSprite_bad-luck.png?f9cd9"
+    },
+    {
+        "name": "Fatal Poison​‌[BE only]",
+        "id": "fatal_poison",
+        "image": "https://minecraft.wiki/images/EffectSprite_fatal-poison.png?7a152"
+    },
+    {
+        "name": "Slow Falling",
+        "id": "slow_falling",
+        "image": "https://minecraft.wiki/images/EffectSprite_slow-falling.png?6d82f"
+    },
+    {
+        "name": "Conduit Power",
+        "id": "conduit_power",
+        "image": "https://minecraft.wiki/images/EffectSprite_conduit-power.png?0626a"
+    },
+    {
+        "name": "Dolphin's Grace​‌[JE only]",
+        "id": "dolphins_grace",
+        "image": "https://minecraft.wiki/images/EffectSprite_dolphin%27s-grace.png?750fd"
+    },
+    {
+        "name": "Bad Omen",
+        "id": "bad_omen",
+        "image": "https://minecraft.wiki/images/EffectSprite_bad-omen.png?881d9"
+    },
+    {
+        "name": "Hero of the Village",
+        "id": "hero_of_the_village​‌[JE only]\nvillage_hero​‌[BE only]",
+        "image": "https://minecraft.wiki/images/EffectSprite_hero-of-the-village.png?526b1"
+    },
+    {
+        "name": "Darkness",
+        "id": "darkness",
+        "image": "https://minecraft.wiki/images/EffectSprite_darkness.png?3919a"
+    },
+    {
+        "name": "Trial Omen\n",
+        "id": "trial_omen",
+        "image": "https://minecraft.wiki/images/EffectSprite_trial-omen.png?965df"
+    },
+    {
+        "name": "Raid Omen\n",
+        "id": "raid_omen",
+        "image": "https://minecraft.wiki/images/EffectSprite_raid-omen.png?04eda"
+    },
+    {
+        "name": "Wind Charged\n",
+        "id": "wind_charged",
+        "image": "https://minecraft.wiki/images/EffectSprite_wind-charged.png?82c9b"
+    },
+    {
+        "name": "Weaving\n",
+        "id": "weaving",
+        "image": "https://minecraft.wiki/images/EffectSprite_weaving.png?2b5ed"
+    },
+    {
+        "name": "Oozing\n",
+        "id": "oozing",
+        "image": "https://minecraft.wiki/images/EffectSprite_oozing.png?bff40"
+    },
+    {
+        "name": "Infested\n",
+        "id": "infested",
+        "image": "https://minecraft.wiki/images/EffectSprite_infested.png?4562a"
+    }
+]

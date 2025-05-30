@@ -6,7 +6,7 @@ import Button from '@/components/elements/Button';
 import EmojiList from './EditorAddons/EmojiList';
 import InventoryList from './EditorAddons/InvList';
 import SmallText from './EditorAddons/SmallText';
-import Items from './EditorAddons/Items';
+import MinecraftIDs from './EditorAddons/MinecraftIDs';
 import ColorPicker from './EditorAddons/ColorPicker';
 import ColoredText from './EditorAddons/ColoredText';
 
@@ -18,7 +18,7 @@ const EditorAddons = () => {
     emoji: false,
     inv: false,
     smallText: false,
-    items: false,
+    mcids: false,
     colorPicker: false,
     coloredText: false
   });
@@ -40,13 +40,13 @@ const EditorAddons = () => {
           Inv
         </Button>
         <Button color={openModals.emoji ? 'primary' : 'grey'} size={"xsmall"} onClick={() => handleOpen('emoji')}>
-          <i className="fa-solid fa-file-lines mr-1"></i> Unicode List
+          <i className="fa-solid fa-file-lines mr-1"></i> Emoji
         </Button>
         <Button color={openModals.smallText ? 'primary' : 'grey'} size={"xsmall"} onClick={() => handleOpen('smallText')}>
           <i className="fa-solid fa-font mr-1"></i> Small Text
         </Button>
-        <Button color={openModals.items ? 'primary' : 'grey'} size={"xsmall"} onClick={() => handleOpen('items')}>
-         <i className="fa-solid fa-apple-whole mr-1"></i>Items
+        <Button color={openModals.mcids ? 'primary' : 'grey'} size={"xsmall"} onClick={() => handleOpen('mcids')}>
+        <i className="fa-solid fa-magnifying-glass mr-1"></i>MC ID
         </Button>
         <Button color={openModals.colorPicker ? 'primary' : 'grey'} size={"xsmall"} onClick={() => handleOpen('colorPicker')}>
           <i className="fa-solid fa-palette mr-1"></i>Color Picker
@@ -68,8 +68,8 @@ const EditorAddons = () => {
         <SmallText />
       </Dialog>
 
-      <Dialog open={openModals.items} onClose={() => handleClose('items')}>
-        <Items />
+      <Dialog open={openModals.mcids} onClose={() => handleClose('mcids')}>
+        <MinecraftIDs />
       </Dialog>
 
       <Dialog open={openModals.colorPicker} onClose={() => handleClose('colorPicker')}>

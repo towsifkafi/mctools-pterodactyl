@@ -1,4 +1,4 @@
-const emojis = [
+[
     {
       "emoji": "§",
       "name": "section"
@@ -7764,5 +7764,3 @@ const emojis = [
       "name": "unknown_2105"
     }
 ]
-
-export default emojis

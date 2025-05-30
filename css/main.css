@@ -6,3 +6,11 @@
 .font-minecraft {
     font-family: "Monocraft";
 }
+
+.code {
+    font-family: "Monocraft";
+    background-color: rgb(54, 54, 54);
+    padding: 2px;
+    font-size: 70%;
+    border-radius: 5px;
+}
