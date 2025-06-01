@@ -4,6 +4,8 @@ import { Tab } from '@headlessui/react';
 import { Textarea } from '@/components/elements/Input';
 import Button from '@/components/elements/Button';
 import CopyOnClick from "@/components/elements/CopyOnClick";
+import EmojiList from './EmojiList';
+import { Dialog } from '@/components/elements/dialog';
 
 interface TabData {
   name: string;
@@ -54,6 +56,16 @@ const MinecraftTextFormatter: React.FC = () => {
   const [previewText, setPreviewText] = useState<string>('');
   const [color, setColor] = useState<string>('#FFFFFF');
   const textInputRef = useRef<HTMLTextAreaElement>(null);
+
+  const [showEmojiList, setShowEmojiList] = useState(false);
+
+  const handleEmojiOpen = () => {
+    setShowEmojiList(true);
+  };
+
+  const handleEmojiClose = () => {
+    setShowEmojiList(false);
+  };
 
   const insertTextAtCursor = (value: string) => {
     const inputBox = textInputRef.current;
@@ -275,6 +287,14 @@ const MinecraftTextFormatter: React.FC = () => {
               >
                 Reset
               </Button>
+              <Button color='grey' size='xsmall' onClick={() => {
+                handleEmojiOpen();
+              }} >
+                Emoji
+              </Button>
+              <Dialog open={showEmojiList} onClose={handleEmojiClose}>
+                <EmojiList />
+              </Dialog>
               <Button color='grey' size='xsmall'
                 onClick={() => insertTextAtCursor(`&${color}`)}
               >
@@ -348,11 +368,11 @@ const MinecraftTextFormatter: React.FC = () => {
                   </div>
                 </div>
               ) : activeTab === 3 ? (
-                <div className="relative w-[650px] mx-auto">
+                <div className="relative w-[550px] mx-auto">
                   <img src="https://mcutils.com/display/chat.svg" alt="Chat" className="w-full" />
-                  <div className="absolute top-[10px] left-[10px] right-[30px] bottom-[10px] flex flex-col-reverse w-[480px] bg-black bg-opacity-40">
+                  <div className="absolute top-[10px] left-[10px] right-[30px] bottom-[10px] flex flex-col-reverse w-[480px] bg-black/[.6]">
                     <p
-                      className="font-minecraft text-[15px] m-1.5 leading-[1.3] text-start overflow-hidden whitespace-pre-wrap break-words"
+                      className="font-minecraft text-[13px] m-1.5 leading-[1.3] text-start overflow-hidden whitespace-pre-wrap break-words"
                       dangerouslySetInnerHTML={{ __html: previewText }}
                     />
                   </div>
