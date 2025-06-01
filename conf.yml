@@ -3,7 +3,7 @@ info:
   identifier: "mctools"
   description: "Some helpful tools for Minecraft servers."
   flags: ""
-  version: "1.0"
+  version: "1.0.1"
   target: "beta-2024-12"
   author: "towsifkafi"
   icon: ""
