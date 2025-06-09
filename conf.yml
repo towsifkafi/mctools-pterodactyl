@@ -3,10 +3,10 @@ info:
   identifier: "mctools"
   description: "Some helpful tools for Minecraft servers."
   flags: ""
-  version: "1.0.1"
+  version: "1.1.0"
   target: "beta-2024-12"
   author: "towsifkafi"
-  icon: ""
+  icon: "public/logo.png"
   website: "https://github.com/towsifkafi/mctools-petrodactyl"
 
 admin:

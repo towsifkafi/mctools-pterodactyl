@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import Select from '@/components/elements/Select';
+import useLocalStorage from "../../lib/useLocalStorage";
 
 const InventoryList = () => {
     
@@ -78,7 +79,7 @@ const InventoryList = () => {
         img: "villager"
     }]
 
-    const [selectedImage, setSelectedImage] = useState('chest-large');
+    const [selectedImage, setSelectedImage] = useLocalStorage('inv_image', 'chest-large');
 
     const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         setSelectedImage(event.target.value);

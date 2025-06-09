@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 import { Button } from "@/components/elements/button";
 import CopyOnClick from "@/components/elements/CopyOnClick";
 
-const ColorPicker = () => {
+import useLocalStorage from "../../lib/useLocalStorage";
 
-    // State for color picker
-    const [color, setColor] = useState('#00AAAA'); // Default to white
-    const [showToast, setShowToast] = useState(false);
+const ColorPicker = () => {
+    
+    const [color, setColor] = useLocalStorage('colorpicker_color', '#00AAAA');
 
     const handleColorChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setColor(event.target.value);

@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import { Textarea } from "@/components/elements/Input";
 import Select from "@/components/elements/Select";
 
+import useLocalStorage from "../../lib/useLocalStorage";
+
 const textFormats = [
   {
     name: "Accent",
@@ -71,9 +73,9 @@ export const SmallText = () => {
 
 
     // Small Text Converter Logic
-    const [inputText, setInputText] = useState('');
+    const [inputText, setInputText] = useLocalStorage("smalltext_text", '');
     const [convertedText, setConvertedText] = useState('');
-    const [selectedFormat, setSelectedFormat] = useState('SmallCaps');
+    const [selectedFormat, setSelectedFormat] = useLocalStorage('smalltext_font', 'SmallCaps');
   
     useEffect(() => {
       //@ts-ignore
@@ -102,11 +104,7 @@ export const SmallText = () => {
 
     return (
         <>
-
-        
-        
         <h1 style={{ marginBottom: '10px' }}>Small Text Converter</h1>
-
         <Select
         value={selectedFormat}
         onChange={(e) => setSelectedFormat(e.target.value)}

@@ -10,8 +10,6 @@ import MinecraftIDs from './EditorAddons/MinecraftIDs';
 import ColorPicker from './EditorAddons/ColorPicker';
 import ColoredText from './EditorAddons/ColoredText';
 
-import Modal from '@/components/elements/Modal';
-
 const EditorAddons = () => {
 
   const [openModals, setOpenModals] = useState({
@@ -19,7 +17,6 @@ const EditorAddons = () => {
     inv: false,
     smallText: false,
     mcids: false,
-    colorPicker: false,
     coloredText: false
   });
 
@@ -48,9 +45,6 @@ const EditorAddons = () => {
         <Button color={openModals.mcids ? 'primary' : 'grey'} size={"xsmall"} onClick={() => handleOpen('mcids')}>
         <i className="fa-solid fa-magnifying-glass mr-1"></i>MC ID
         </Button>
-        <Button color={openModals.colorPicker ? 'primary' : 'grey'} size={"xsmall"} onClick={() => handleOpen('colorPicker')}>
-          <i className="fa-solid fa-palette mr-1"></i>Color Picker
-        </Button>
         <Button color={openModals.coloredText ? 'primary' : 'grey'} size={"xsmall"} onClick={() => handleOpen('coloredText')}>
           <i className="fa-solid fa-palette mr-1"></i>Colored Text
         </Button>
@@ -70,10 +64,6 @@ const EditorAddons = () => {
 
       <Dialog open={openModals.mcids} onClose={() => handleClose('mcids')}>
         <MinecraftIDs />
-      </Dialog>
-
-      <Dialog open={openModals.colorPicker} onClose={() => handleClose('colorPicker')}>
-        <ColorPicker />
       </Dialog>
 
       {/* <Modal dismissable={true} children={<ColorPicker />} visible={openModals.colorPicker} onDismissed={() => {handleClose('colorPicker')} } /> */}
