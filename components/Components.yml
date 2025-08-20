@@ -8,7 +8,7 @@ Navigation:
   #NavigationBar: 
   #  AdditionalItems: "elements/PlaceholderComponent"
   Routes:
-    #- { Name: "Utils", Path: "/utils", Type: "server", Component: "sections/MCUtils", AdminOnly: "false" }
+    - { Name: "Configuration", Path: "/config", Type: "server", Component: "sections/ServerProperties", AdminOnly: "false" }
 
 Server:
   Files:
